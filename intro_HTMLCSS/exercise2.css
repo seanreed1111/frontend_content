@@ -1,0 +1,9 @@
+header {
+  background: #e0e2e6 !important;
+}
+.content {
+  border: 2px solid #ccc;
+}
+aside {
+  width: 120px;
+}

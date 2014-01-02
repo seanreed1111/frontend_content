@@ -1,0 +1,54 @@
+<!-- INSTRUCTIONS
+
+1. remove all inline and <head> styles and put them in the external stylesheet so that you no longer need the !important for background-color
+2. center the slogan and make it italic using an ID selector
+3. float the aside to the right and add 10px of margin to its left and bottom sides
+4. then make the article width the same width as the aside and float it left
+
+-->
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Exercise 2</title>
+    <link rel="stylesheet" href="exercise2.css" />
+    <style>
+      body {
+        color: #4b4648;
+        font-family: tahoma, arial, sans-serif;
+        font-size: 14px;
+      }
+      .content {
+        border: 1px solid #cac3c6;
+        margin: 0 auto;
+        padding: 20px;
+        width: 260px;
+      }
+      h1 {
+        color: #6d9fac;
+        font-size: 22px;
+        text-align: center;
+      }
+      header {
+        background: #ff0000;
+      }
+    </style>
+  </head>
+  
+  <body>
+      <header style="background: #423e40;">
+        <h1>Sven's Snowshoe Emporium</h1>
+        <h2 id="slogan">"For the Snow-Savvy Shoe-Shopper"</h2>
+      </header>
+      <section class="content">
+        <aside>
+          <p>Did you know that Sven's Snowshoe Emporium produces the highest quality snowshoes in North America? <a href="#">Find out more</a>.</p>
+        </aside>
+        <article>
+          <h3>New Fall Styles</h3>
+          <p>Autumn is finally here, and as you've probably guessed, all of this year's new designer styles are now available!</p>
+          <p>Be the first at your resort to sport the hot new tennis-themed snow kicks, now available in the <a href="#">store</a>.</p>
+        </article>
+      </section>
+  </body>
+</html>

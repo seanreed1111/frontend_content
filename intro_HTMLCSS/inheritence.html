@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+  <head>
+    <title>[NYCDA] Inheritence Practice</title>
+    <style>
+      div {
+        border: 2px black dashed;
+        text-align: center;
+      }
+      .parent {
+        border-color: blue;
+        color: blue;
+        margin: 10px;
+      }
+      .child {
+        border-color: red;
+        color: red;
+        margin: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grandparent" id="GP">
+      <h1>GP</h1>
+      <div class="parent" id="1">
+        <h1>1</h1>
+        <div class="child" id="A">
+          <h1>A</h1>
+        </div>
+        <div class="child" id="B">
+          <h1>B</h1>
+        </div>
+        <div class="child" id="C">
+          <h1>C</h1>
+        </div>
+      </div>
+      <div class="parent" id="2">
+        <h1>2</h1>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,40 @@
+<!-- INSTRUCTIONS
+
+1. refactor this code to use clearfix to clear floats
+2. use a nested selector to make paragraphs in asides italic 
+3. for anchor tags inside aside paragraphs, override the inherited font-style and make it normal
+4. refactor the css for .active and .copyright so that !important can be removed
+
+-->
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Exercise 3</title>
+    <link rel="stylesheet" href="exercise3.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <div class="clear"></div>
+    </nav>
+    <section class="content home">
+      <aside>
+        <p>Did you know that Sven's Snowshoe Emporium produces the highest quality snowshoes in North America? <a href="#">Find out more</a>.</p>
+      </aside>
+      <article>
+        <h3>New Fall Styles</h3>
+        <p>Be the first at your resort to sport the hot new tennis-themed snow kicks, now available in the <a href="#">store</a>.</p>
+      </article>
+      <div class="clear"></div>
+    </section>
+    <footer class="primary">
+      <p><a href="#">Sign up</a> for our newsletter, it's a racket!</p>
+      <p class="copyright">Copyright &copy; Sven's Snowshoe Emporium. All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>

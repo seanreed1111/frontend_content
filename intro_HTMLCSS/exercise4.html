@@ -1,0 +1,47 @@
+<!-- INSTRUCTIONS
+
+1. make the figure in the footer have a total box width and height of 120px (consider the padding, margin, and border values that already exist)
+2. hide overflow on the x-axis and add a scroll bar on the y-axis (if necessary)
+**hint: you can use overflow-x and overflow-y to target different axies
+3. anchors with thte button class are floated to the right. to center them vertically use relative positioning to move the button down 3px
+4. the newsletter paragraph is sticking to the bottom of the window instead of the bottom of the footer. add the necessary positioning to scope it correctly
+5. use absolute positioning to place the figure in the upper right hand corner of the footer
+CHALLENGE: the newsletter paragraph is behind the figure, google a way to fix that!!
+
+-->
+
+<!doctype html>
+  <html lang="en">
+    <head>
+      <title>Exercise 4</title>
+      <link rel="stylesheet" href="exercise4.css" />
+    </head>            
+    <body>
+      <nav>
+        <ul class="group">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <section class="content home group">
+        <aside>
+          <p>Did you know that Sven's Snowshoe Emporium produces the highest quality snowshoes in North America? <a href="#">Find out more</a>.</p>
+        </aside>
+        <article>
+          <a class="button" href="#">See All Styles</a>
+          <h3>New Fall Styles</h3>
+          <p>Be the first at your resort to sport the hot new tennis-themed snow kicks, now available in the <a href="#">store</a>.</p>
+        </article>
+      </section>
+      <footer>
+        <figure>
+          <p class="newsletter"><a href="#">Sign up</a> for our newsletter, it's a racket! <a class="hide" href="#">Hide</a></p>
+          <p class="copyright">Copyright &copy; Sven's Snowshoe Emporium. All Rights Reserved.</p>
+          <h4>Latest Customer Image</h4>
+          <img src="images/customerimg.jpg" alt="Customer Image" />
+          <figcaption>"We all bought our snowshoes from Sven's - their prices are lower than permafrost!"</figcaption>
+        </figure>
+      </footer>
+    </body>
+  </html>
